@@ -1,0 +1,1309 @@
+@font-face {
+    font-family: 'Futura PT';
+    src: url('./fonts/FuturaPT-Heavy.eot');
+    src: local('Futura PT Heavy'), local('FuturaPT-Heavy'),
+        url('./fonts/FuturaPT-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-Heavy.woff') format('woff'),
+        url('./fonts/FuturaPT-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('./fonts/FuturaPT-Medium.eot');
+    src: local('Futura PT Medium'), local('FuturaPT-Medium'),
+        url('./fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-Medium.woff') format('woff'),
+        url('./fonts/FuturaPT-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('./fonts/FuturaPT-MediumObl.eot');
+    src: local('Futura PT Medium Oblique'), local('FuturaPT-MediumObl'),
+        url('./fonts/FuturaPT-MediumObl.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-MediumObl.woff') format('woff'),
+        url('./fonts/FuturaPT-MediumObl.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura PT Cond';
+    src: url('./fonts/FuturaPTCond-Medium.eot');
+    src: local('Futura PT Cond Medium'), local('FuturaPTCond-Medium'),
+        url('./fonts/FuturaPTCond-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPTCond-Medium.woff') format('woff'),
+        url('./fonts/FuturaPTCond-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('./fonts/FuturaPT-LightObl.eot');
+    src: local('Futura PT Light Oblique'), local('FuturaPT-LightObl'),
+        url('./fonts/FuturaPT-LightObl.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-LightObl.woff') format('woff'),
+        url('./fonts/FuturaPT-LightObl.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura PT Book';
+    src: url('./fonts/FuturaPT-Book.eot');
+    src: local('Futura PT Book'), local('FuturaPT-Book'),
+        url('./fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-Book.woff') format('woff'),
+        url('./fonts/FuturaPT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT Cond';
+    src: url('./fonts/FuturaPTCond-Bold.eot');
+    src: local('Futura PT Cond Bold'), local('FuturaPTCond-Bold'),
+        url('./fonts/FuturaPTCond-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPTCond-Bold.woff') format('woff'),
+        url('./fonts/FuturaPTCond-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT Book';
+    src: url('./fonts/FuturaPT-BookObl.eot');
+    src: local('Futura PT Book Oblique'), local('FuturaPT-BookObl'),
+        url('./fonts/FuturaPT-BookObl.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-BookObl.woff') format('woff'),
+        url('./fonts/FuturaPT-BookObl.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura PT Cond Extra';
+    src: url('./fonts/FuturaPTCond-ExtraBoldObl.eot');
+    src: local('Futura PT Cond Extra Bold Oblique'), local('FuturaPTCond-ExtraBoldObl'),
+        url('./fonts/FuturaPTCond-ExtraBoldObl.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPTCond-ExtraBoldObl.woff') format('woff'),
+        url('./fonts/FuturaPTCond-ExtraBoldObl.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('./fonts/FuturaPT-Light.eot');
+    src: local('Futura PT Light'), local('FuturaPT-Light'),
+        url('./fonts/FuturaPT-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-Light.woff') format('woff'),
+        url('./fonts/FuturaPT-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('./fonts/FuturaPT-BoldObl.eot');
+    src: local('Futura PT Bold Oblique'), local('FuturaPT-BoldObl'),
+        url('./fonts/FuturaPT-BoldObl.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-BoldObl.woff') format('woff'),
+        url('./fonts/FuturaPT-BoldObl.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura PT Demi';
+    src: url('./fonts/FuturaPT-DemiObl.eot');
+    src: local('Futura PT Demi Oblique'), local('FuturaPT-DemiObl'),
+        url('./fonts/FuturaPT-DemiObl.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-DemiObl.woff') format('woff'),
+        url('./fonts/FuturaPT-DemiObl.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura PT Cond Extra';
+    src: url('./fonts/FuturaPTCond-ExtraBold.eot');
+    src: local('Futura PT Cond Extra Bold'), local('FuturaPTCond-ExtraBold'),
+        url('./fonts/FuturaPTCond-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPTCond-ExtraBold.woff') format('woff'),
+        url('./fonts/FuturaPTCond-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT Demi';
+    src: url('./fonts/FuturaPT-Demi.eot');
+    src: local('Futura PT Demi'), local('FuturaPT-Demi'),
+        url('./fonts/FuturaPT-Demi.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-Demi.woff') format('woff'),
+        url('./fonts/FuturaPT-Demi.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('./fonts/FuturaPT-HeavyObl.eot');
+    src: local('Futura PT Heavy Oblique'), local('FuturaPT-HeavyObl'),
+        url('./fonts/FuturaPT-HeavyObl.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-HeavyObl.woff') format('woff'),
+        url('./fonts/FuturaPT-HeavyObl.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura PT Extra';
+    src: url('./fonts/FuturaPT-ExtraBoldObl.eot');
+    src: local('Futura PT Extra Bold Oblique'), local('FuturaPT-ExtraBoldObl'),
+        url('./fonts/FuturaPT-ExtraBoldObl.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-ExtraBoldObl.woff') format('woff'),
+        url('./fonts/FuturaPT-ExtraBoldObl.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura PT Cond Book';
+    src: url('./fonts/FuturaPTCond-Book.eot');
+    src: local('Futura PT Cond Book'), local('FuturaPTCond-Book'),
+        url('./fonts/FuturaPTCond-Book.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPTCond-Book.woff') format('woff'),
+        url('./fonts/FuturaPTCond-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('./fonts/FuturaPT-Bold.eot');
+    src: local('Futura PT Bold'), local('FuturaPT-Bold'),
+        url('./fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-Bold.woff') format('woff'),
+        url('./fonts/FuturaPT-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT Extra';
+    src: url('./fonts/FuturaPT-ExtraBold.eot');
+    src: local('Futura PT Extra Bold'), local('FuturaPT-ExtraBold'),
+        url('./fonts/FuturaPT-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-ExtraBold.woff') format('woff'),
+        url('./fonts/FuturaPT-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT Cond';
+    src: url('./fonts/FuturaPTCond-BoldObl.eot');
+    src: local('Futura PT Cond Bold Oblique'), local('FuturaPTCond-BoldObl'),
+        url('./fonts/FuturaPTCond-BoldObl.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPTCond-BoldObl.woff') format('woff'),
+        url('./fonts/FuturaPTCond-BoldObl.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura PT Cond';
+    src: url('./fonts/FuturaPTCond-MediumObl.eot');
+    src: local('Futura PT Cond Medium Oblique'), local('FuturaPTCond-MediumObl'),
+        url('./fonts/FuturaPTCond-MediumObl.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPTCond-MediumObl.woff') format('woff'),
+        url('./fonts/FuturaPTCond-MediumObl.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura PT Cond Book';
+    src: url('./fonts/FuturaPTCond-BookObl.eot');
+    src: local('Futura PT Cond Book Oblique'), local('FuturaPTCond-BookObl'),
+        url('./fonts/FuturaPTCond-BookObl.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPTCond-BookObl.woff') format('woff'),
+        url('./fonts/FuturaPTCond-BookObl.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Big Caslon';
+    src: url('./fonts/Big Caslon Medium.ttf');
+    src: local('Big Caslon Medium'), local('Big Caslon Medium'),
+        url('./fonts/Big Caslon Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Futura PT', sans-serif;
+}
+
+.big_caslon{
+    font-family: 'Big Caslon', sans-serif;
+
+}
+.first_block {
+    
+background-size: cover;
+    
+width: 100%;
+    
+/* margin-top: 59px; */
+    
+padding-top: 60px;
+    
+height: calc(100vh - 60px);
+    
+background-position: bottom;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    list-style-type: none;
+    z-index: 777;
+    background-color: #000000;
+}
+.first_block {
+    display: block;
+    background-image: url(images/2021-BMW-M3-Competition-004-2160-scaled.jpg);
+}
+a {
+    /*  position: relative;*/
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menubar_link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    font-size: 26px;
+}
+
+.menubar_link_left {
+    display: flex;
+    font-size: 16px;
+}
+
+.menubar_list_left {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.menubar_link_left li {
+    padding: 20px
+}
+
+.menubar_link_right {
+    display: flex;
+}
+
+.menubar_list_right {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.menubar_link_right li {
+    padding: 20px;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0px 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main_title {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 10px;
+    font-size: 70px;
+}
+
+h1::after {
+    content: "";
+    display: block;
+    width: 418px;
+    height: 5px;
+    background: #ffffff;
+    margin: 219px auto;
+    transform: rotate(-45deg);
+}
+
+.footer_text {
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.12em;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    max-width: 740px;
+    text-transform: uppercase;
+}
+
+.first_block {
+    display: block;
+}
+
+/*SECOND BLOCK*/
+.second_block {
+    padding: 130px 0;
+
+}
+
+.second_block_text_center {
+    text-align: center;
+}
+
+.second_block_title {
+    text-align: center;
+    padding-top: 0px;
+    letter-spacing: 0.6em;
+    font-size: 16px;
+    line-height: 74px;
+}
+
+.second_block_rent {
+    text-align: center;
+    font-size: 98px;
+    letter-spacing: 0.12em;
+    line-height: 1.4;
+}
+
+.second_block_with {
+    text-align: center;
+    font-size: 46px;
+    letter-spacing: 0.3em;
+
+}
+
+.second_block_description {
+    text-align: center;
+    max-width: 800px;
+    letter-spacing: 0.12em;
+    font-size: 16px;
+    margin: 45px auto 0;
+}
+
+.third_block {
+    background-color: #F6F6F6;
+}
+
+.choose_title {
+    text-align: center;
+    font-size: 50px;
+    line-height: 2;
+    letter-spacing: 0.2em;
+}
+
+.choose_title span {
+    color: #FF5D00;
+    font-size: 20px;
+
+
+}
+
+.third_block_car_slider {
+    display: flex;
+    margin-top: 69px;
+    justify-content: space-around;
+}
+
+.third_block_car {
+    width: 30%;
+    min-height: 100px;
+
+}
+
+.choose_img {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+
+}
+
+.choose_img_title {
+    padding: 10px 0 15px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 10px 0 10px;
+    text-align: center;
+}
+
+.choose_link {
+    color: #000;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.choose_day {
+    font-size: 24px;
+    display: inline-block;
+    color: #000;
+    margin: 0 25px 0 35px;
+}
+
+.choose_hour {
+    font-size: 24px;
+    color: #FF5D00;
+}
+
+.our_cars_block {
+    display: flex;
+    justify-content: center;
+}
+
+.our_cars {
+    padding: 15px 45px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0.5em;
+    background: #161513;
+    margin: 39px 0 -29px 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*section for Choose*/
+.info_block {
+    display: flex;
+
+}
+
+.info_text {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 80px 0;
+    text-align: center;
+    color: #1c1919;
+}
+
+.info_img {
+    background-size: cover;
+    background-position: center;
+    min-height: 365px;
+}
+
+.info_block_reverse {
+    flex-direction: row-reverse;
+
+}
+
+.info_sub {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.info_first_title {
+    color: #2f2a2a;
+    font-size: 51px;
+    line-height: 1;
+}
+
+.info_first_title_sub {
+    color: #363636;
+    line-height: 2;
+    text-transform: lowercase;
+    font-size: 26px;
+    margin: 10px 0;
+}
+
+.info_first_title_sub span {
+    text-transform: uppercase;
+}
+
+.info_block_desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    max-width: 345px;
+    margin: 0 auto;
+}
+
+.desc_color {
+    color: #ffffff;
+}
+
+.info_first_title1 {
+    color: #ffffff;
+    font-size: 51px;
+    line-height: 2;
+}
+
+.white {
+    color: #FFfFFF;
+}
+
+.black {
+    color: #000000;
+}
+
+.customers_title {
+    font-size: 36px;
+    letter-spacing: 0.3em;
+    text-align: center;
+}
+
+.customers_title span {
+    color: #FF5D00;
+
+}
+.customers_block{
+	    padding: 120px 0;
+	    text-align: center;
+	    color: #1c1919;
+	    display: flex;
+}
+.customers_img{
+	  background-size: cover;
+	  background-position: center;
+	  min-height: 650px;
+	  flex: 0 0 50%;
+	  max-width: 50%;
+}
+.text_char{
+	font-size: 144px;
+	color:#FF5D00;
+	position: absolute;
+	top: -90px;
+	left: 50px;
+}
+
+.customers_text_block {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    background: #fff;
+}
+
+.customers {
+    background: #ECECEC;
+    padding-top: 65px;
+}
+.review_block{
+	text-align: center;
+	padding: 75px 0;
+	
+}
+.user_name{
+	font-size: 70.21px;
+}
+.review_desc{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+	text-align: center;
+	max-width: 345px;
+	margin: 0 auto;
+	padding-top: 33px;
+	padding-bottom: 76px;
+}
+.custimer_car{
+	color: #FF5D00;
+	font-size: 40px;
+}
+.stories_block{
+	display: flex;
+	margin-top: 45px;
+	justify-content: space-around;
+}
+.from_future_block{
+	width: 50%;
+	min-height: 490px;
+}
+.future_img{
+	display: block;
+	background-size: cover;
+	  background-position: center;
+	  min-height: 365px;
+}
+.from_future_block{
+	flex:0 0 49%;
+	max-width: 49%
+}
+.from_future_title{
+	position: relative;
+	margin-top: 26px;
+}
+.from_future_title span{
+	font-size: 24px;
+	display: block;
+	max-width: 310px;
+
+}
+.plus{
+	color: #2B2B2B;
+	padding-top: 1px;
+	font-size: 30px;
+	position: absolute;
+	right: 75px;
+	line-height: 0.5;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.flex-container {
+  display: flex;
+  background-color: #23242A;
+}
+
+.footer_block{
+	flex: 0 0 55%;
+	background-color: #23242A;
+	color: white;
+	position: relative;
+	flex-wrap: wrap;
+}
+.map{
+	flex: 0 0 45%;
+	background-color: yellow;
+}
+.text_block_footer{
+	font-size: 24px;
+	margin-right: 70px;
+	text-align: justify;
+	color: rgba(255,255,255,.5);
+	line-height: 30px;
+}
+.footer_text1{
+	color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	top:50%;
+	padding: 110px 10px 10px 40px;
+}
+.footer_links{
+	margin-right: 10px;
+	flex: 0 0 20%;
+	max-width: 20%;
+}
+
+.footer_links div {
+    color: rgba(255,255,255,.5);
+    margin-top: -10px;
+    margin-bottom: 23px;
+    font-size: 18px;
+}
+
+.footer_links ul {
+    line-height: 24px;
+    font-size: 18px;
+    list-style: none;
+}
+.copyright_block {
+    display: flex;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 12px 10px 39px;
+}
+.a {
+    margin-right: 14px;
+}
+.found_div{
+	flex:0 0 50%;
+}
+.found_block_title {
+    font-size: 24px;
+    letter-spacing: 1.5;
+}
+.input_block{
+	display: inline-grid;
+	margin-top: 28px;
+}
+.display{
+	width: 460px;
+	height:66px;
+	margin-bottom: 15px ;
+	border-style: none;
+}
+.input_block textarea{
+	width: 460px;
+	height: 252px;
+	border-style: none;
+}
+textarea,input::-webkit-input-placeholder {
+	padding-left: 20px;
+    font-size: 24px;
+    line-height: 3;
+}
+
+.menubar_logo {
+    font-size: 18px;
+}* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.first_block {
+    
+background-size: cover;
+    
+width: 100%;
+    
+padding-top: 60px;
+    
+height: 100vh;
+    
+background-position: bottom;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 777;
+    background-color: #000000;
+    left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menubar_link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    font-size: 26px;
+}
+
+
+.menubar_list_left {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.menubar_link_left li {
+    padding: 20px
+}
+
+.menubar_link_right {
+    display: flex;
+}
+
+.menubar_list_right {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.menubar_link_right li {
+    padding: 20px;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0px 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main_title {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 10px;
+    font-size: 70px;
+}
+
+.main_title::after {
+    content: "";
+    display: block;
+    width: 418px;
+    height: 5px;
+    background: #ffffff;
+    margin: 219px auto;
+    transform: rotate(-45deg);
+}
+
+.footer_text {
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.12em;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    max-width: 740px;
+    text-transform: uppercase;
+}
+
+.first_block {
+    display: block;
+}
+
+/*SECOND BLOCK*/
+.second_block {
+    padding: 130px 0;
+
+}
+
+.second_block_text_center {
+    text-align: center;
+}
+
+.second_block_title {
+    text-align: center;
+    padding-top: 0px;
+    letter-spacing: 0.6em;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.second_block_rent {
+    text-align: center;
+    font-size: 98px;
+    letter-spacing: 0.12em;
+    line-height: 1.4;
+}
+
+.second_block_with {
+    text-align: center;
+    font-size: 46px;
+    letter-spacing: 0.3em;
+
+}
+
+.second_block_description {
+    text-align: center;
+    max-width: 800px;
+    letter-spacing: 0.12em;
+    font-size: 16px;
+    margin: 45px auto 0;
+}
+
+.third_block {
+    background-color: #F6F6F6;
+    padding: 50px 0;
+}
+
+.choose_title {
+    text-align: center;
+    font-size: 50px;
+    line-height: 2;
+    letter-spacing: 0.2em;
+}
+
+.choose_title span {
+    color: #FF5D00;
+    font-size: 20px;
+
+
+}
+
+.third_block_car_slider {
+    display: flex;
+    justify-content: space-around;
+    margin: 69px -11px 0;
+}
+
+.third_block_car {
+    min-height: 100px;
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+    padding: 0 11px;
+}
+
+.choose_img {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+
+}
+
+.choose_img_title {
+    padding: 10px 0 15px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 10px 0 10px;
+    text-align: center;
+}
+
+.choose_link {
+    color: #000;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.choose_day {
+    font-size: 24px;
+    display: inline-block;
+    color: #000;
+    margin: 0 25px 0 35px;
+}
+
+.choose_hour {
+    font-size: 24px;
+    color: #FF5D00;
+}
+
+.our_cars_block {
+    display: flex;
+    justify-content: center;
+}
+
+.our_cars {
+    padding: 15px 45px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0.5em;
+    background: #161513;
+    margin: 39px 0 0 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*section for Choose*/
+.info_block {
+    display: flex;
+
+}
+
+.info_text {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 80px 0;
+    text-align: center;
+    color: #1c1919;
+}
+
+.info_img {
+    background-size: cover;
+    background-position: center;
+    min-height: 365px;
+}
+
+.info_block_reverse {
+    flex-direction: row-reverse;
+
+}
+
+.info_sub {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.info_first_title {
+    color: #2f2a2a;
+    font-size: 51px;
+    line-height: 1;
+}
+
+.info_first_title_sub {
+    color: #363636;
+    line-height: 2;
+    text-transform: lowercase;
+    font-size: 26px;
+    margin: 10px 0;
+}
+
+.info_first_title_sub span {
+    text-transform: uppercase;
+}
+
+.info_block_desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    max-width: 345px;
+    margin: 0 auto;
+}
+
+.desc_color {
+    color: #ffffff;
+}
+
+.info_first_title1 {
+    color: #ffffff;
+    font-size: 51px;
+    line-height: 2;
+}
+
+.white {
+    color: #FFfFFF;
+}
+
+.black {
+    color: #000000;
+}
+
+.customers_title {
+    font-size: 36px;
+    letter-spacing: 0.3em;
+    text-align: center;
+}
+
+.customers_title span {
+    color: #FF5D00;
+
+}
+.customers_block{
+	    padding: 120px 0;
+	    text-align: center;
+	    color: #1c1919;
+	    display: flex;
+}
+.customers_img{
+	  background-size: cover;
+	  background-position: center;
+	  min-height: 650px;
+	  flex: 0 0 50%;
+	  max-width: 50%;
+}
+.text_char{
+	font-size: 144px;
+	color:#FF5D00;
+	position: absolute;
+	top: -90px;
+	left: 50px;
+}
+
+.customers_text_block {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customers {
+    background: #ECECEC;
+    padding-top: 65px;
+}
+.review_block{
+	text-align: center;
+	padding: 50px 0;
+}
+.user_name{
+	font-size: 70.21px;
+}
+.review_desc{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+	text-align: center;
+	max-width: 345px;
+	margin: 0 auto;
+	padding-top: 33px;
+	padding-bottom: 76px;
+}
+.custimer_car{
+	color: #FF5D00;
+	font-size: 40px;
+}
+.stories_block{
+	display: flex;
+	justify-content: space-around;
+	margin: 45px -5px 0;
+}
+.from_future_block{
+	width: 50%;
+	min-height: 490px;
+}
+.future_img{
+	display: block;
+	background-size: cover;
+	  background-position: center;
+	  min-height: 365px;
+}
+.from_future_block{
+	flex: 0 0 50%;
+	max-width: 50%;
+	padding: 0 5px;
+}
+.from_future_title{
+	position: relative;
+	margin-top: 26px;
+}
+.from_future_title span{
+	font-size: 24px;
+	display: block;
+	max-width: 310px;
+
+}
+.plus{
+	color: #2B2B2B;
+	padding-top: 1px;
+	font-size: 30px;
+	position: absolute;
+	right: 75px;
+	line-height: 0.5;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.flex-container {
+  display: flex;
+  background-color: #23242A;
+}
+
+.footer_block{
+	flex: 0 0 55%;
+	background-color: #23242A;
+	color: white;
+}
+.map{
+	flex: 0 0 45%;
+	background-color: yellow;
+}
+.text_block_footer{
+	font-size: 24px;
+	padding-right: 70px;
+	text-align: justify;
+	color: rgba(255,255,255,.5);
+	line-height: 30px;
+	flex: 0 0 75%;
+	max-width: 75%;
+}
+.footer_text1{
+	color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	top:50%;
+	padding: 110px 10px 10px 40px;
+	flex-wrap: wrap;
+}
+.footer_links{
+	flex: 0 0 20%;
+	max-width: 20%;
+}
+
+.footer_links div {
+    color: rgba(255,255,255,.5);
+    margin-top: -10px;
+    margin-bottom: 23px;
+    font-size: 18px;
+}
+
+.footer_links ul {
+    line-height: 24px;
+    font-size: 18px;
+    list-style: none;
+}
+.copyright_block {
+    display: flex;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 12px 10px 0;
+}
+.a {
+    margin-right: 14px;
+}
+.found_div{
+	flex:0 0 50%;
+}
+.found_block_title {
+    font-size: 24px;
+    letter-spacing: 1.5;
+}
+.input_block{
+	display: inline-grid;
+	margin-top: 28px;
+}
+.display{
+	width: 460px;
+	height:66px;
+	margin-bottom: 15px ;
+	border-style: none;
+}
+.input_block textarea{
+	width: 460px;
+	height: 252px;
+	border-style: none;
+}
+textarea,input::-webkit-input-placeholder {
+	padding-left: 20px;
+    font-size: 24px;
+    line-height: 3;
+}
+.main_title_news{
+	 text-align: center;
+	 color: #000;
+	 padding: 50px 0;
+	 font-size: 70px;
+	 position: relative;
+	 margin-top: 50px;
+}
+.main_title_news::before{
+	content: "";
+	display: block;
+	width: 280px;
+	height: 2px;
+	background: #FF5D00;
+	transform: translateX(-50%) rotate(-60deg);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: -1;
+}
+/*
+.callus_block {
+    display: flex;
+    justify-content: space-around;
+    background-color: #191919;
+    height: 300px;
+    align-items: center;
+   
+}*/
+
+.callus_block {
+    display: flex;
+    justify-content: space-between;
+    background-color: #191919;
+    height: 300px;
+    align-items: center;
+}
+.callus_text {
+    margin-left: 48px;
+    max-width: 720px;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.callus_click {
+    margin-right: 63px;
+}
+
+section.stories {
+    padding: 50px 0;
+}

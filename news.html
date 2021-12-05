@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <title>News</title>
+        <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="catalog/view/javascript/jquery/magnific/magnific-popup.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/style_newe98b.css?v=1.1.25">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <meta name="description" content="Free Web tutorials">
+          <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+          <meta name="author" content="W3HUBS">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header class="header" style="background-color: #FFFFFF;">
+            <div class="container">
+                <div class="menubar_link">
+                    <div class="menubar_link_left">
+                        <ul class="menubar_list_left">
+                            <li><a href="#" style="color: #000;">CONTACT</a></li>
+                            <li><a href="#" style="color: #000;">FAQ's</a></li>
+                        </ul>
+                    </div>
+                    <div class="menubar_logo">
+                        <a href="index.html" style="color: #000;">AGERARENTAL</a>
+                    </div>
+                    <div class="menubar_link_right">
+                        <ul class="menubar_list_right">
+                            <li><a href="allcars.html" style="color: #000;">OUR CARS</a></li>
+                            <li><a href="news.htm" style="color: #000;">NEWS</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="first_block">
+                <div class="container">
+                    <h1 class="main_title_news">OUR NEWS</h1>
+                </div>
+                <section class="stories">
+                    <div class="container">
+                        <div class="stories_block">
+                            <div class="from_future_block">
+                                <div class="future_img" style="background-image: url(images/future1.png);"></div>
+                                <div class="from_future_title">
+                                    <span>STORIES FROM THE FUTURE</span>
+                                    <a href="#" class="plus">+</a>
+                                </div>
+                            </div>
+                            <div class="from_future_block">
+                                <div class="future_img" style="background-image: url(images/future2.png);"></div>
+                                <div class="from_future_title">
+                                    <span>CARS FROM THE FUTURE</span>
+                                    <a href="#" class="plus">+</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="callus_block">
+                        	<div class="callus_text">Check out our latest</div>
+                        	<div class="callus_click">
+                        		<a href="#" class="our_cars" style="background-color: #FF5D00;">Call us</a>
+
+                        	</div>
+
+                        </div>
+                        <div class="stories_block">
+                            <div class="from_future_block">
+                                <div class="future_img" style="background-image: url(images/future1.png);"></div>
+                                <div class="from_future_title">
+                                    <span>STORIES FROM THE FUTURE</span>
+                                    <a href="#" class="plus">+</a>
+                                </div>
+                            </div>
+                            <div class="from_future_block">
+                                <div class="future_img" style="background-image: url(images/future2.png);"></div>
+                                <div class="from_future_title">
+                                    <span>CARS FROM THE FUTURE</span>
+                                    <a href="#" class="plus">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <div class="w3hubs-footer">
+      
+      <div class="w3hubs-icon">
+        <ul>
+            <li><a href="#" target="black"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" target="black"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#" target="black"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" target="black"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#" target="black"><i class="fa fa-youtube-play"></i></a></li>
+        </ul>
+      </div>
+      <div class="w3hubs-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li class="p1"><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      
+
+      <div class="w3hubs-nav2">
+        <ul>
+            
+            <li><a href="#" title="To Top"><i class="fa fa-chevron-down"></i></a></li>
+            
+        </ul>
+      </div>
+   </div>
+
+   <div class="footer-end">
+      <p>Desing By: <a href="https://www.facebook.com/shushan.martirosyan.735/">Shushan Martirosyan</a></p>
+   </div>
+      
+    <script>
+        var slideIndex = 1;
+        displaySlide(slideIndex);
+   
+        function moveSlides(n) {
+            displaySlide(slideIndex += n);
+        }
+   
+        function activeSlide(n) {
+            displaySlide(slideIndex = n);
+        }
+   
+        /* Main function */
+        function displaySlide(n) {
+            var i;
+            var totalslides = 
+                document.getElementsByClassName("slide");
+              
+            var totaldots = 
+                document.getElementsByClassName("footerdot");
+              
+            if (n > totalslides.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) {
+                slideIndex = totalslides.length;
+            }
+            for (i = 0; i < totalslides.length; i++) {
+                totalslides[i].style.display = "none";
+            }
+            for (i = 0; i < totaldots.length; i++) {
+                totaldots[i].className = 
+                totaldots[i].className.replace(" active", "");
+            }
+            totalslides[slideIndex - 1].style.display = "block";
+            totaldots[slideIndex - 1].className += " active";
+        }
+    </script>
+    </body>
+
+    </html>
